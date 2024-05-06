@@ -3,7 +3,7 @@
 
 const config = {
   "content": {
-    "base": "/assets/data/mi-base.json"
+    "base": "./assets/data/mi-base.json"
   },
   "colors": {
     "mi-blau": ".mi-blau",
