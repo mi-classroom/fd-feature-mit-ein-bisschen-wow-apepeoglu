@@ -7,8 +7,8 @@
     "server": "npx light-server -s . -w \"./**\"",
     "lint": "stylelint assets/styles/**/*.css",
     "lint:fix": "stylelint assets/styles/**/*.css --fix",
-    "copy:fonts": "recursive-copy assets/fonts compiled-assets/fonts",
-    "build:css": "lightningcss --minify --bundle --targets '>= 0.25%' assets/styles/main.css -o compiled-assets/styles/main.css",
+    "copy:fonts": "recursive-copy -w assets/fonts compiled-assets/fonts",
+    "build:css": "lightningcss --minify --bundle --sourcemap --targets '>= 0.25%' assets/styles/main.css -o compiled-assets/styles/main.css",
     "watch:css": "onchange 'assets/styles/**/*.css' -- npm run build:css",
     "dev": "npm-run-all --parallel server lint build:css copy:fonts watch:css"
   },
