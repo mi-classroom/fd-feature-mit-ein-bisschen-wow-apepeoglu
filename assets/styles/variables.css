@@ -13,7 +13,9 @@
   --color-light: hsl(0deg 0% 80%);
   --color-lighter: hsl(0deg 0% 90%);
   --color-lightest: hsl(0deg 0% 100%);
-  --color-darkest: #000;
+  --color-dark: hsl(0deg 0% 20%);
+  --color-darker: hsl(0deg 0% 10%);
+  --color-darkest: hsl(0deg 0% 0%);
   --color-lighten: hsl(0deg 0% 100%/ 50%);
   --color-lighten-strong: hsl(0deg 0% 100%/ 80%);
 
