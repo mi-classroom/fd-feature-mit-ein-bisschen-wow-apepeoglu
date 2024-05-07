@@ -2,9 +2,9 @@
 ---------------------------------------------------------------------------- */
 
 const addKeyboardEvents = () => {
-
-  const navObjects = document.querySelectorAll("[data-js-content] > *");
+  
   const contentWrap = document.querySelector("[data-js-content]");
+  const navObjects = document.querySelectorAll("[data-js-content] > *");
   const navObjectsArray = Array.from(navObjects);
   let currentNavObject = 0;
 
@@ -20,9 +20,9 @@ const addKeyboardEvents = () => {
   };
 
 
-  document.onkeydown = function (e) {
+  document.onkeydown = function (event) {
 
-    switch (e.keyCode) {
+    switch (event.keyCode) {
       case 38:
         jump("up");
         break;

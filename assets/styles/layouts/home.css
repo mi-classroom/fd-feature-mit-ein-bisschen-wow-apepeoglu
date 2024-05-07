@@ -4,13 +4,13 @@
 .home > *{
   max-width: var(--max-content-width);
   filter: blur(2vw);
-  transform: scale(1) rotate(45deg);
+  transform: scale(1) rotate(120deg);
   transition: all var(--tr-normal) var(--tr-fast) ease-in-out;
 }
 
 .home.is-in-view > *{
   filter: blur(0);
-  transform: scale(1);
+  transform: scale(1) rotate(0deg);
 }
 
 .home{
@@ -19,7 +19,7 @@
   }
 }
 
-.home.home.is-in-view{
+.home.is-in-view{
   h1{
     text-shadow: var(--color-darkest) 0.1em 0.1em 0;
   }

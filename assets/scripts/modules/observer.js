@@ -15,8 +15,8 @@ const addObserver = () => {
     });
   }, options);
 
-  observedElements.forEach(function (jadeScale) {
-    observer.observe(jadeScale);
+  observedElements.forEach(function (element) {
+    observer.observe(element);
   });
 }
 
