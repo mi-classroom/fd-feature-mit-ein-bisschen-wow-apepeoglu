@@ -30,7 +30,7 @@
       "layout": "image-stripe",
       "images": [
         "./images/Hybride-Lehre_Kohls_DSC2852.jpg",
-        "./images/_DSC6076_.jpg",
+        "./images/DSC6076.jpg",
         "./images/8N1B3676.jpg",
         "./images/DSC08493.jpg",
         "./images/moxd-lab-projektarbeit_DSC0926.jpg"
@@ -76,7 +76,7 @@
           "url": "#bewerbung"
         }
       ],
-      "image": "./images/8N1B3610.jpg",
+      "image": "./images/usability-testing.jpg",
       "layout": "page",
       "cssClasses": "has-grid is-layout-2 mi-lila"
     },
